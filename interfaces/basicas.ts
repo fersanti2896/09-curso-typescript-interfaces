@@ -12,7 +12,7 @@
         powers: ['Super Traje']
     }
 
-    console.log( batman );
+    // console.log( batman );
 
     let thor: Hero = {
         name: 'Thor Odinson',
@@ -23,5 +23,5 @@
         }
     }
 
-    console.log( thor );
+    // console.log( thor );
 })();
