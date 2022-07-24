@@ -21,12 +21,18 @@
             cp: 13278,
             colony: 'Villa Centroamericana',
             city: 'Ciudad de México'
+        },
+        getFullAddress() {
+            return this.address.cp;
         }
     };
     console.log(client);
     const client2 = {
         name: 'Monstserrat',
-        age: 28
+        age: 28,
+        getFullAddress() {
+            return this.address.cp;
+        }
     };
     console.log(client2);
 })();
